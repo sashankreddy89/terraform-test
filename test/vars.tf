@@ -23,7 +23,9 @@ variable "tags" {
   type        = map(string)
 }
 
-variable "frontend_ami" {}
+variable "frontend_ami" {
+
+}
 variable "backend_ami" {}
 variable "db_ami" {}
 variable "instance_type" {}
